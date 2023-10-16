@@ -1,0 +1,257 @@
+<html>
+
+<head>
+
+<title>Your Name - Portfolio</title>
+
+<style>
+
+body{
+
+margin: 0;
+font-family: Arial, sans-serif;
+padding: 0; 
+background-color: #f0f0f0;
+
+}
+
+header{
+
+color:black;
+background-color:red;
+text-align: center;
+padding: 2rem 0;
+position: relative; /* Add this */
+
+}
+
+.header-content h1 {
+
+font-size: 2.5rem;
+
+}
+
+
+.profile-picture {
+
+width: 100px;
+height: 130px;
+border-radius: 75%; 
+object-fit: cover; 
+position: absolute;
+left: 75px; 
+
+}
+
+nav {
+
+background-color:black; 
+color: #fff; 
+text-align: center;
+
+}
+
+nav ul {
+
+list-style-type: none;
+ padding: 0;
+
+}
+
+nav ul li {
+
+display: inline; margin: 0 20px;
+
+}
+
+nav ul li a {
+
+text-decoration: none; color: #fff;
+
+}
+
+.section-content {
+
+background-color:pink;
+ padding: 2rem;
+margin: 1rem; 
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+download-button { 
+    background-color: #333;
+     color: #fff; 
+     padding: 0.5rem 1rem;
+      text-decoration: none; 
+      border-radius: 20px;
+       display: inline-block; 
+       margin-top: 10px;
+
+}
+
+.download-button:hover {
+
+background-color: #555;
+
+}
+
+footer {
+
+text-align: center; 
+padding: 1rem 0; 
+background-color: #333;
+ color: #fff;
+
+}
+
+ul {
+
+list-style-type: disc; 
+padding-left: 20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="header-content"> <!- Add your profile picture
+
+here ->
+
+<img src="deva1.jpg" alt="Your Profile Picture"
+
+class="profile-picture">
+
+<h1>DEVAKUMAR</h1> <p>Passionate on </div>
+
+Coding</p>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#skills">Skills</a> </li>
+
+
+</ul>
+
+</nav>
+
+<section id="about">
+
+<div class="section-content">
+
+<h2>About Me</h2>
+
+<p>I'am Devakumar From Pariyamaruthupatti Currently iam studing B.Sc computer science</p>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>B.Sc C.S</h2>
+
+<div class="section-content"> <p>Arumugam Pillai Seethai Ammal College</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<div class="section-content">
+
+<h2>Skills</h2>
+
+<ul>
+
+<li>Python</li>
+
+<li>java</li>
+
+<li>Typewriting</li> <li>web designing</li>
+
+</ul> </div>
+
+</section>
+
+<section id="projects">
+
+<div class="section-content">
+
+<h2>Projects</h2>
+
+<ul>
+
+<li><a href="#">Project
+
+1</a></li>
+
+<li><a href="#">Project 2</a></li>
+
+here ->
+
+<!- Add more project links
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>&copy; 2023 devakumar</p>
+
+</footer>
+
+<script>
+
+// Smooth scrolling to section when clicking on navigation links document.querySelectorAll(' a[href="#"]').forEach(anchor => {
+
+anchor.addEventListener('click',
+
+function(e) { e.preventDefault(); const targetld = this.getAt
+
+tribute('href').substring(1);
+
+const targetElement = do
+
+cument.getElementById(targetld);
+
+if (targetElement) { window.scrollTo({
+
+targetElement.offsetTop,
+
+top: behavior: 'smooth'
+
+});
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
